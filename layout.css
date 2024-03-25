@@ -8,7 +8,7 @@ body {
 section {
     background-color: #bbddee;
     margin-block-end: 1rem;
-    padding: 1rem;
+    /*padding: 1rem;*/
 }
 
 .iso {
@@ -21,7 +21,7 @@ section {
     color: white;
     border: solid white 1px;
     border-width: 0 1rem 1rem 0;
-    /*margin: -1rem 2rem 2 rem -1rem ;*/
+    /*margin: -1rem 2rem 2rem -1rem;*/
 }
 
 .reunaviiva {
@@ -34,6 +34,9 @@ h1, h2,h3, p, pre, ul{
 
 h1 {
     font-size: 1.6rem;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+    padding: 10px 0  5px 90px;
 }
 h2 {
     font-size: 1.6rem;
@@ -51,3 +54,33 @@ ul {
 p {
     font-size: 1.6rem;
 }
+.first {
+    padding: 10px 0 5px 90px;
+}
+/*section Two Start*/
+figure img {
+    float: left;
+    width: 6rem;
+    height: 40px;
+    padding: 0 3px;
+    background-color: white;
+    border: 1px solid black;
+
+}
+.reunaviiva h2 {
+    background-color: gray;
+    padding: 5px 10px;
+    text-align: right;
+}
+
+/*section Two End*/
+/*section Three Start*/
+.reunaviiva .banner {
+    float: left;
+    background-color: white;
+    width: 50rem;
+    padding: 0.5rem;
+    font-size: 12px;
+    border: 1px solid black;
+}
+/*section Three End*/
